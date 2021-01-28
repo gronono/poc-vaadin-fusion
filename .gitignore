@@ -33,13 +33,13 @@ README.html
 *.db
 
 # Node
-/node_modules/
-/node/
-/package.json
-/package-lock.json
-/webpack.config.js
-/webpack.generated.js
-/tsconfig.json
-/pnpm-lock.yaml
-/pnpmfile.js
-/types.d.ts
+node_modules/
+node/
+package.json
+package-lock.json
+webpack.config.js
+webpack.generated.js
+tsconfig.json
+pnpm-lock.yaml
+pnpmfile.js
+types.d.ts

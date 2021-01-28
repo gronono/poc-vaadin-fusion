@@ -1,0 +1,15 @@
+logging.level:
+  nc.unc: debug
+  org.atmosphere: warn
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@//localhost:1521/gestdock
+    username: grhum
+    password: clement
+    hikari.minimumIdle: 1
+  mustache.check-template-location: false
+
+# To improve the performance during development.
+vaadin.whitelisted-packages: nc.unc.vaadin.fusion.app
